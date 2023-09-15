@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="listContainer">
+            <h1 class="listHeading">pokedex</h1>
+            <a href="" class="prevPage">Forrige</a> | <a href="" class="nextPage">Næste</a>
+
+            <ul class="results"></ul>
+
+        </div>
+        <svg class="pokeSVG" width="512" height="512" viewBox="0 0 512 512" fill="url(#pcn-ds)" stroke="#000"
+            stroke-width="3">
+            <defs>
+                <linearGradient id="pcn-ds" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+                    <stop offset="45%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+                    <stop offset="45%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+                    <stop offset="55%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+                    <stop offset="55%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+                </linearGradient>
+
+            </defs>
+            <circle cx="256" cy="256" r="62" fill="white" />
+            <path
+                d="M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM256,336a80,80,0,1,1,80-80A80.09,80.09,0,0,1,256,336Z" />
+        </svg>
+
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>

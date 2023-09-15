@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <section>
+            <form action="pokemon.html" autocomplete="off">
+                <label>
+                    <input type="search" name="name" list="pokemons" class="pokemon__search">
+                    <datalist id="pokemons"></datalist>
+                </label>
+                <button type="submit">Søg</button>
+            </form>
+
+            <div class="pokemon"></div>
+            
+            <script src="/search.js" defer></script>
+
+        </section>
+
+    </div>
+    <script src="pokemon.js" defer></script>
+
+</body>
+
+</html>
